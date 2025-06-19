@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - ChemoPedia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fade-in-up {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-fade-in-up {
+      animation: fade-in-up 0.8s ease-out both;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-green-50 via-white to-lime-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-green-800 to-green-600 text-white py-10 shadow-2xl sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="relative text-center animate-fade-in-up">
+        <h1 class="text-5xl font-extrabold tracking-wide drop-shadow-md animate-pulse">ChemoPedia</h1>
+        <p class="text-green-200 text-lg mt-2 font-medium tracking-wide">Chemical Inventory</p>
+
+      </div>
+
+      <nav class="mt-6 flex justify-center gap-8 text-sm md:text-base animate-fade-in-up">
+        <a href="index.html" class="hover:text-yellow-300 underline underline-offset-4 transition duration-300">Home</a>
+        <a href="team.html" class="hover:text-yellow-300 underline underline-offset-4 transition duration-300">Team</a>
+      
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-14">
+    <!-- About Section -->
+    <section class="bg-white rounded-3xl shadow-xl p-8 border-l-4 border-green-500 hover:shadow-2xl transition duration-300 animate-fade-in-up">
+      <h2 class="text-4xl font-bold text-green-800 mb-4 flex items-center gap-3">
+        <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3v3.75H5.25v3.75H9.75v3.75h3.75V10.5h4.5V6.75h-4.5V3H9.75z"/>
+        </svg>
+        About ChemoPedia
+      </h2>
+      <p class="text-lg mb-6 leading-relaxed">
+        We, the students of the MSc 4th semester of Centre For Biotechnology and Bioinformatics program at Dibrugarh University Assam, have developed this website as part of our dissertation project. Our primary aim is to provide a foundational understanding of various chemicals and their applications in the field of biotechnology and related fields. This platform has been thoughtfully designed to meet the needs of students, scholars, researchers, faculty members, and others working across various scientific disciplines. ChemoPedia is not only limited to our institution, but it is accessible to each and everyone, fostering open knowledge and collaborative learning for everyone.
+      </p>
+      <p class="text-lg mb-6 leading-relaxed">
+        The platform was created as part of our academic project to promote accessibility and awareness of chemical resources in the labs. It aims to reduce manual tracking efforts, foster collaboration, and serve as an educational aid.
+      </p>
+      <p class="text-lg leading-relaxed">
+        We hope ChemoPedia becomes a valuable tool in your academic and research journey.
+      </p>
+    </section>
+
+    <!-- Mission -->
+    <section class="bg-green-50 rounded-2xl p-6 shadow-md hover:shadow-lg border border-green-200 animate-fade-in-up">
+      <h3 class="text-3xl font-semibold text-green-700 mb-3 flex items-center gap-2">
+        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+        Our Mission
+      </h3>
+      <p class="text-lg leading-relaxed">
+        Our mission at ChemoPedia is to democratize chemical knowledge and make it accessible, meaningful, and practical for all.
+      </p>
+      <p class="text-lg mb-6 leading-relaxed">
+        Developed by the MSc 4th semester students of the Centre for Biotechnology and Bioinformatics at Dibrugarh University Assam, ChemoPedia aims to bridge the gap between chemical information and its real-world applications in biotechnology and related fields.
+      </p>
+      <p class="text-lg mb-6 leading-relaxed">
+        We strive to provide a user-friendly platform that offers accurate, well-organized data on laboratory chemicals to support students, researchers, and educators. By reducing manual tracking efforts, fostering collaboration, and enhancing learning, ChemoPedia serves as a reliable academic and research companion for the wider scientific community.
+      </p>
+      <p class="text-lg mb-6 leading-relaxed">
+        Our vision is to create a resource that not only simplifies lab work but also inspires knowledge sharing and scientific growth.
+      </p>
+    </section>
+
+    <!-- Survey -->
+    <section class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg border border-green-100 animate-fade-in-up">
+      <h3 class="text-3xl font-semibold text-green-700 mb-3">The Survey</h3>
+      <p class="text-lg leading-relaxed">
+        The survey was meticulously conducted by students as a part of their dissertation. Each student took part in identifying and cataloging various chemicals found within the Centre premises and also beyond the premises. This hands-on approach not only enhanced their academic knowledge but also provided them with practical experience in field research and data collection.
+      </p>
+    </section>
+
+    <!-- Objectives -->
+    <section class="bg-green-50 rounded-2xl p-6 shadow-md hover:shadow-lg border border-green-200 animate-fade-in-up">
+      <h3 class="text-3xl font-semibold text-green-700 mb-4">Objectives of the Survey</h3>
+      <ul class="list-disc pl-6 space-y-3 text-lg">
+        <li><strong>Centralized Chemical Database:</strong> To create a comprehensive, web-based platform that organizes and presents detailed information about chemicals commonly used in biotechnology and scientific research.</li>
+        <li><strong>User-Friendly Access:</strong> To design an intuitive and easily navigable interface that allows users, including students and researchers, to quickly search for and access chemical data.</li>
+        <li><strong>Search and Filter Features:</strong> To incorporate advanced search options and filtering mechanisms that enable users to locate chemicals based on specific criteria, such as name, category, or application.</li>
+        <li><strong>Update and Expand Database:</strong> To allow for continuous updates and expansions of the database, ensuring that the information remains current and relevant to ongoing scientific advancements and research needs.</li>
+        <li><strong>Enhanced Research Efficiency:</strong> To streamline the research process by offering a centralized platform where users can easily find the chemical data they need for their experiments and studies.</li>
+      </ul>
+    </section>
+
+    <!-- Importance -->
+    <section class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg border border-green-100 animate-fade-in-up">
+      <h3 class="text-3xl font-semibold text-green-700 mb-3">Importance of the Website</h3>
+      <p class="text-lg mb-4">ChemoPedia serves multiple significant purposes:</p>
+      <ul class="list-disc pl-6 space-y-3 text-lg">
+        <li><strong>Centralized Access to Data:</strong> The website serves as a centralized platform for accessing a wide range of chemical, biological, and bioinformatics data, providing an organized resource for research.</li>
+        <li><strong>Enhances Research Efficiency:</strong> By offering curated, reliable, and up-to-date chemical and biological information, it streamlines the research process, saving time and effort for researchers and students.</li>
+        <li><strong>Educational Resource:</strong> It serves as a valuable resource for students, researchers and educators in chemistry, biotechnology and related disciplines, providing a practical learning platform for academic studies.</li>
+        <li><strong>Open Access to Knowledge:</strong> By offering public access to its vast collection of data, the website fosters transparency and open science, encouraging wider participation in research and development.</li>
+      </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="text-center bg-gradient-to-r from-green-100 to-lime-100 rounded-2xl p-8 shadow-md hover:shadow-lg border border-green-300 animate-fade-in-up">
+      <h3 class="text-3xl font-semibold text-green-700 mb-3">Join Us in Our Journey</h3>
+      <p class="text-lg mb-4">ChemoPedia invites everyone to explore, learn, and contribute to our growing database of chemicals.</p>
+      <blockquote class="text-xl italic text-green-900 font-medium">"Unlock valuable resources for your studies—visit our Chemical Database and elevate your academic journey!"</blockquote>
+    </section>
+
+    <!-- Footer Note -->
+    <p class="text-center text-sm mt-12 text-gray-500">© Abhisek Dasgupta</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-white text-center py-4 mt-10">
+    &copy; 2025 ChemoPedia | Centre for Biotechnology and Bioinformatics, Dibrugarh University Assam
+  </footer>
+</body>
+</html>
